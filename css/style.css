@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body {
+    background: #04152f url(../images/main-bg.jpg) no-repeat;
+    background-size: cover;
+    padding: 30px 42px;
+}
+
+.head .top-title h5 {
+    color: #00A0E9;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.content {
+    display: flex;
+    min-height: 85vh;
+    margin: 0;
+}
+
+.content .middle.aligned {
+    margin: auto;
+}
+
+.content .con-title h1 {
+    color: #fff;
+    font-size: 26px;
+}
+
+.content .con-search {
+    margin-top: 20px;
+}
+
+.con-search .ui.input {
+    width: 45%;
+}
+
+.con-search .ui.input input {
+    background: #F39800;
+}
+
+.con-search .ui.search .prompt {
+    border-radius: 2px;
+}
