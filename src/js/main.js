@@ -1,11 +1,9 @@
 'use strict';
 
 import $ from 'jquery';
-import moment from 'moment';
-import '../../bower_components/semantic/dist/semantic';
-import mixitup from '../../bower_components/mixitup/dist/mixitup';
+import '../../bower_components/semantic/dist/semantic.min';
+import mixitup from '../../bower_components/mixitup/dist/mixitup.min';
 
-var rightNow = moment().format('YYYY-MM-DD,h:mm:ss a');
 var mixer = mixitup('.content.main .view-search', {
     selectors: {
         target: '.column'
