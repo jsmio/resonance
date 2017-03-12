@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>四川成都共振系统</title>
+    <link rel="stylesheet" href="./bower_components/semantic/dist/semantic.css">
+    <link rel="stylesheet" href="./bower_components/animate.css/animate.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <div class="head">
+        <div class="top-title">
+            <h5>四川省成都市 共振系统</h5>
+        </div>
+    </div>
+    <div class="content main">
+        <div class="ui middle aligned center aligned fluid container">
+            <div class="con-title">
+                <h1>四川省成都市 共振系统</h1>
+            </div>
+            <div class="con-search">
+                <div class="ui search">
+                    <div class="ui icon input">
+                        <input class="prompt" type="text" placeholder="请输入相关车辆信息">
+                        <i class="search icon"></i>
+                    </div>
+                    <div class="results"></div>
+                </div>
+            </div>
+            <div class="ui grid con-search">
+                <div class="row">
+                    <div class="ui search ten wide column">
+                        <div class="ui icon input">
+                            <input class="prompt" type="text" placeholder="请输入相关车辆信息">
+                            <i class="search icon"></i>
+                        </div>
+                        <div class="results"></div>
+                    </div>
+                    <div class="right floated four wide column">
+                        <div class="ui form grid right aligned">
+                            <div class="two fields">
+                                <div class="field ten wide column res-type">
+                                    <div class="ui selection dropdown">
+                                        <input type="hidden" name="gender">
+                                        <i class="dropdown icon"></i>
+                                        <div class="default text">车辆型号</div>
+                                        <div class="menu">
+                                            <div class="item" data-sort="random" data-value="1">车辆型号</div>
+                                            <div class="item" data-sort="value:asc" data-value="0">车牌</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="field six wide column res-color">
+                                    <div class="ui selection dropdown">
+                                        <input type="hidden" name="gender">
+                                        <i class="dropdown icon"></i>
+                                        <i class="color-box" data-value="red"></i>
+                                        <div class="default text"></div>
+                                        <div class="menu">
+                                            <div class="item" data-filter="all" data-value=""></div>
+                                            <div class="item" data-filter=".red-color" data-value="red"></div>
+                                            <div class="item" data-filter=".yellow-color" data-value="yellow"></div>
+                                            <div class="item" data-filter=".green-color" data-value="green"></div>
+                                            <div class="item" data-filter=".white-color" data-value="white"></div>
+                                            <div class="item" data-filter=".black-color" data-value="black"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-search">
+                <div class="ui equal width grid">
+
+                        <div data-value="川B 0p658" class="column red-color">
+                            <div class="ui raised link card">
+                                <div class="content right aligned">
+                                    <div class="car-img left floated">
+                                        <img src="./src/images/car.png" alt="">
+                                    </div>
+                                    <div class="res-color">
+                                      <span class="red"></span>
+                                    </div>
+                                    <a class="header">川B 0p658</a>
+                                    <div class="meta">
+                                        <span class="brand">广汽本田</span>
+                                    </div>
+                                </div>
+                                <div class="extra content">
+                                    <span class="similarity">相似度:</span>
+                                    <span class="value red">8.50</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-value="川X KH786" class="column green-color">
+                          <div class="ui raised link card">
+                              <div class="content right aligned">
+                                  <div class="car-img left floated">
+                                      <img src="./src/images/car.png" alt="">
+                                  </div>
+                                  <div class="res-color">
+                                    <span class="green"></span>
+                                  </div>
+                                  <a class="header">川X KH786</a>
+                                  <div class="meta">
+                                      <span class="brand">一汽大众</span>
+                                  </div>
+                              </div>
+                              <div class="extra content">
+                                  <span class="similarity">相似度:</span>
+                                  <span class="value red">8.20</span>
+                              </div>
+                          </div>
+                        </div>
+                        <div data-value="川C RF789" class="column white-color">
+                          <div class="ui raised link card">
+                              <div class="content right aligned">
+                                  <div class="car-img left floated">
+                                      <img src="./src/images/car.png" alt="">
+                                  </div>
+                                  <div class="res-color">
+                                    <span class="white"></span>
+                                  </div>
+                                  <a class="header">川C RF789</a>
+                                  <div class="meta">
+                                      <span class="brand">广汽本田</span>
+                                  </div>
+                              </div>
+                              <div class="extra content">
+                                  <span class="similarity">相似度:</span>
+                                  <span class="value blue">7.89</span>
+                              </div>
+                          </div>
+                        </div>
+                        <div data-value="川A WE563" class="column green-color">
+                          <div class="ui raised link card">
+                              <div class="content right aligned">
+                                  <div class="car-img left floated">
+                                      <img src="./src/images/car.png" alt="">
+                                  </div>
+                                  <div class="res-color">
+                                    <span class="green"></span>
+                                  </div>
+                                  <a class="header">川A WE563</a>
+                                  <div class="meta">
+                                      <span class="brand">广汽本田</span>
+                                  </div>
+                              </div>
+                              <div class="extra content">
+                                  <span class="similarity">相似度:</span>
+                                  <span class="value blue">7.56</span>
+                              </div>
+                          </div>
+                        </div>
+                        <div data-value="川B OP658" class="column red-color">
+                          <div class="ui raised link card">
+                              <div class="content right aligned">
+                                  <div class="car-img left floated">
+                                      <img src="./src/images/car.png" alt="">
+                                  </div>
+                                  <div class="res-color">
+                                    <span class="red"></span>
+                                  </div>
+                                  <a class="header">川B OP658</a>
+                                  <div class="meta">
+                                      <span class="brand">广汽本田</span>
+                                  </div>
+                              </div>
+                              <div class="extra content">
+                                  <span class="similarity">相似度:</span>
+                                  <span class="value blue">7.21</span>
+                              </div>
+                          </div>
+                        </div>
+
+                        <div data-value="川H OK968" class="column green-green">
+                            <div class="ui raised link card">
+                                <div class="content right aligned">
+                                    <div class="car-img left floated">
+                                        <img src="./src/images/car.png" alt="">
+                                    </div>
+                                    <div class="res-color">
+                                      <span class="green"></span>
+                                    </div>
+                                    <a class="header">川H OK968</a>
+                                    <div class="meta">
+                                        <span class="brand">广汽本田</span>
+                                    </div>
+                                </div>
+                                <div class="extra content">
+                                    <span class="similarity">相似度:</span>
+                                    <span class="value red">6.55</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-value="川A 890UJ" class="column white-color">
+                          <div class="ui raised link card">
+                              <div class="content right aligned">
+                                  <div class="car-img left floated">
+                                      <img src="./src/images/car.png" alt="">
+                                  </div>
+                                  <div class="res-color">
+                                    <span class="white"></span>
+                                  </div>
+                                  <a class="header">川A 890UJ</a>
+                                  <div class="meta">
+                                      <span class="brand">一汽大众</span>
+                                  </div>
+                              </div>
+                              <div class="extra content">
+                                  <span class="similarity">相似度:</span>
+                                  <span class="value blue">6.20</span>
+                              </div>
+                          </div>
+                        </div>
+                        <div data-value="424-536-784-9654" class="column">
+                          <div class="ui raised link card wifi">
+                              <div class="content right aligned">
+                                  <div class="car-img left floated">
+                                      <img src="./src/images/wifi.png" alt="">
+                                  </div>
+                                  <a class="header">424-536-784-9654</a>
+                                  <div class="meta">
+                                      <span class="brand"></span>
+                                  </div>
+                              </div>
+                              <div class="extra content">
+                                  <span class="similarity">相似度:</span>
+                                  <span class="value blue">6.12</span>
+                              </div>
+                          </div>
+                        </div>
+                        <div data-value="川A CF675" class="column yellow-color">
+                          <div class="ui raised link card">
+                              <div class="content right aligned">
+                                  <div class="car-img left floated">
+                                      <img src="./src/images/car.png" alt="">
+                                  </div>
+                                  <div class="res-color">
+                                    <span class="yellow"></span>
+                                  </div>
+                                  <a class="header">川A CF675</a>
+                                  <div class="meta">
+                                      <span class="brand">广汽本田</span>
+                                  </div>
+                              </div>
+                              <div class="extra content">
+                                  <span class="similarity">相似度:</span>
+                                  <span class="value blue">5.56</span>
+                              </div>
+                          </div>
+                        </div>
+                        <div data-value="川D 45TY6" class="column green-color">
+                          <div class="ui raised link card">
+                              <div class="content right aligned">
+                                  <div class="car-img left floated">
+                                      <img src="./src/images/car.png" alt="">
+                                  </div>
+                                  <div class="res-color">
+                                    <span class="green"></span>
+                                  </div>
+                                  <a class="header">川D 45TY6</a>
+                                  <div class="meta">
+                                      <span class="brand">广汽本田</span>
+                                  </div>
+                              </div>
+                              <div class="extra content">
+                                  <span class="similarity">相似度:</span>
+                                  <span class="value blue">5.21</span>
+                              </div>
+                          </div>
+                        </div>
+
+                        <div data-value="川R 0X768" class="column red-color">
+                            <div class="ui raised link card">
+                                <div class="content right aligned">
+                                    <div class="car-img left floated">
+                                        <img src="./src/images/car.png" alt="">
+                                    </div>
+                                    <div class="res-color">
+                                      <span class="red"></span>
+                                    </div>
+                                    <a class="header">川R 0X768</a>
+                                    <div class="meta">
+                                        <span class="brand">广汽本田</span>
+                                    </div>
+                                </div>
+                                <div class="extra content">
+                                    <span class="similarity">相似度:</span>
+                                    <span class="value red">8.50</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-value="川M KH756" class="column black-color">
+                          <div class="ui raised link card">
+                              <div class="content right aligned">
+                                  <div class="car-img left floated">
+                                      <img src="./src/images/car.png" alt="">
+                                  </div>
+                                  <div class="res-color">
+                                    <span class="black"></span>
+                                  </div>
+                                  <a class="header">川M KH756</a>
+                                  <div class="meta">
+                                      <span class="brand">一汽大众</span>
+                                  </div>
+                              </div>
+                              <div class="extra content">
+                                  <span class="similarity">相似度:</span>
+                                  <span class="value red">8.20</span>
+                              </div>
+                          </div>
+                        </div>
+                        <div data-value="川A RF789" class="column white-color">
+                          <div class="ui raised link card">
+                              <div class="content right aligned">
+                                  <div class="car-img left floated">
+                                      <img src="./src/images/car.png" alt="">
+                                  </div>
+                                  <div class="res-color">
+                                    <span class="white"></span>
+                                  </div>
+                                  <a class="header">川A RF789</a>
+                                  <div class="meta">
+                                      <span class="brand">广汽本田</span>
+                                  </div>
+                              </div>
+                              <div class="extra content">
+                                  <span class="similarity">相似度:</span>
+                                  <span class="value blue">7.89</span>
+                              </div>
+                          </div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui modal">
+      <i class="close icon"></i>
+      <div class="header">
+        选择时间点
+      </div>
+      <div class="content">
+        <div class="selected-date">
+          <div class="ui selection dropdown">
+              <input type="hidden" name="years">
+              <i class="dropdown icon"></i>
+              <div class="default text">2017</div>
+              <div class="menu hidden">
+                  <div class="item" data-value="1">2017</div>
+                  <div class="item" data-value="0">2016</div>
+              </div>
+          </div>
+          <span>年</span>
+          <div class="ui selection dropdown">
+              <input type="hidden" name="month">
+              <i class="dropdown icon"></i>
+              <div class="default text">3</div>
+              <div class="menu">
+                  <div class="item" data-value="1">1</div>
+                  <div class="item" data-value="0">2</div>
+              </div>
+          </div>
+          <span>月</span>
+          <div class="ui selection dropdown">
+              <input type="hidden" name="day">
+              <i class="dropdown icon"></i>
+              <div class="default text">12</div>
+              <div class="menu">
+                  <div class="item" data-value="1">1</div>
+                  <div class="item" data-value="0">2</div>
+              </div>
+          </div>
+          <span>日</span>
+        </div>
+        <div class="description">
+          注：数据显示选择日期前后15天共振结果
+        </div>
+      </div>
+      <div class="actions">
+        <div class="ui button">确 定</div>
+      </div>
+    </div>
+
+    <script src="/dist/bundle.js"></script>
+</body>
+
+</html>

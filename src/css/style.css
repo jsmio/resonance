@@ -5,7 +5,9 @@ body {
     background-size: cover;
     padding: 30px 42px;
 }
-
+body,h1, h2, h3, h4, h5{
+  font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu
+}
 .ui.modal {
     width: 550px;
     margin: 0em 0em 0em -17%;
@@ -170,22 +172,22 @@ body {
 
 .ui.input input::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
-    color: rgba(0, 0, 0, 0.85);
+    color: rgba(0, 0, 0, 0.55);
 }
 
 .ui.input input::-moz-placeholder {
     /* Firefox 19+ */
-    color: rgba(0, 0, 0, 0.85);
+    color: rgba(0, 0, 0, 0.55);
 }
 
 .ui.input input:-ms-input-placeholder {
     /* IE 10+ */
-    color: rgba(0, 0, 0, 0.85);
+    color: rgba(0, 0, 0, 0.55);
 }
 
 .ui.input input:-moz-placeholder {
     /* Firefox 18- */
-    color: rgba(0, 0, 0, 0.85);
+    color: rgba(0, 0, 0, 0.55);
 }
 
 .head, .content.main {
