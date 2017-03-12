@@ -1,8 +1,70 @@
 @charset "UTF-8";
 body {
     background: #04152f url(../images/main-bg.png) no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     padding: 30px 42px;
+}
+
+.ui.modal {
+    width: 550px;
+    margin: 0em 0em 0em -17%;
+    font-size: 1rem;
+    background: rgba(2, 14, 32, 0.6);
+}
+
+.ui.modal>.header {
+    border-bottom: none;
+    background: transparent;
+}
+
+.ui.modal>.content {
+    text-align: center;
+    background: transparent;
+}
+
+.ui.modal .selected-date span{
+    margin: 0 8px;
+    font-size: 18px;
+    color: #00A0E9;
+}
+
+.ui.modal>.content>.description {
+    margin-top: 15px;
+    color: #00A0E9;
+}
+
+.ui.modal>.actions {
+    border-top: none;
+    background: transparent;
+    text-align: center;
+}
+
+.ui.modal>.header:not(.ui) {
+    text-align: center;
+    font-size: 24px;
+    color: #00A0E9;
+}
+.ui.modal > .actions {
+      padding-bottom: 2rem;
+}
+.ui.modal .actions>.button {
+    width: 50%;
+    background: #00A0E9;
+    color: #131320;
+    box-shadow: 0px 0px 0px 1px rgba(33, 133, 208, 0.3), 0px 2px 4px 0px rgba(33, 133, 208, 0.36), 0px 2px 10px 0px rgba(33, 133, 208, 0.5);
+}
+.ui.modal > .close {
+  top: 0;
+  right: 3px;
+  color: #00A0E9;
+}
+.ui[class*="equal width"].grid>.row>.column, .ui.grid>[class*="equal width"].row>.column, .ui[class*="equal width"].grid>.column:not(.row) {
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    width: 20%;
+    max-width: 20%;
 }
 
 .ui.selection.dropdown {
@@ -14,6 +76,19 @@ body {
     background: transparent;
     border: 1px solid #00A0E9;
     border-radius: 1px;
+}
+
+.ui.raised.card {
+    box-shadow: none;
+}
+
+.ui.link.raised.card:hover {
+    box-shadow: 0px 0px 0px 1px rgba(33, 133, 208, 0.3), 0px 2px 4px 0px rgba(33, 133, 208, 0.36), 0px 2px 10px 0px rgba(33, 133, 208, 0.5);
+}
+
+.ui.link.card:hover {
+    background: transparent;
+    border-radius: 4px;
 }
 
 .ui.dropdown:not(.button)>.default.text {
@@ -218,7 +293,7 @@ body {
 }
 
 .content.main .view-search {
-    display: none;
+    /*display: none;*/
     margin-top: 20px;
 }
 
@@ -296,6 +371,7 @@ body {
     width: 33px;
     height: auto;
 }
+
 .content.main .view-search .ui.card.wifi .header {
     max-width: 166px;
     height: 28px;

@@ -47,8 +47,8 @@
                                         <i class="dropdown icon"></i>
                                         <div class="default text">车辆型号</div>
                                         <div class="menu">
-                                            <div class="item" data-value="1">车辆型号</div>
-                                            <div class="item" data-value="0">车牌</div>
+                                            <div class="item" data-sort="random" data-value="1">车辆型号</div>
+                                            <div class="item" data-sort="value:asc" data-value="0">车牌</div>
                                         </div>
                                     </div>
                                 </div>
@@ -59,11 +59,12 @@
                                         <i class="color-box" data-value="red"></i>
                                         <div class="default text"></div>
                                         <div class="menu">
-                                            <div class="item" data-value="red"></div>
-                                            <div class="item" data-value="yellow"></div>
-                                            <div class="item" data-value="green"></div>
-                                            <div class="item" data-value="white"></div>
-                                            <div class="item" data-value="black"></div>
+                                            <div class="item" data-filter="all" data-value=""></div>
+                                            <div class="item" data-filter=".red-color" data-value="red"></div>
+                                            <div class="item" data-filter=".yellow-color" data-value="yellow"></div>
+                                            <div class="item" data-filter=".green-color" data-value="green"></div>
+                                            <div class="item" data-filter=".white-color" data-value="white"></div>
+                                            <div class="item" data-filter=".black-color" data-value="black"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -74,9 +75,9 @@
             </div>
             <div class="view-search">
                 <div class="ui equal width grid">
-                    <div class="equal width row">
-                        <div class="column">
-                            <div class="ui card">
+
+                        <div data-value="川B 0p658" class="column red-color">
+                            <div class="ui raised link card">
                                 <div class="content right aligned">
                                     <div class="car-img left floated">
                                         <img src="./images/car.png" alt="">
@@ -84,7 +85,7 @@
                                     <div class="res-color">
                                       <span class="red"></span>
                                     </div>
-                                    <a class="header">川A 0p658</a>
+                                    <a class="header">川B 0p658</a>
                                     <div class="meta">
                                         <span class="brand">广汽本田</span>
                                     </div>
@@ -95,8 +96,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="column">
-                          <div class="ui card">
+                        <div data-value="川X KH786" class="column green-color">
+                          <div class="ui raised link card">
                               <div class="content right aligned">
                                   <div class="car-img left floated">
                                       <img src="./images/car.png" alt="">
@@ -104,7 +105,7 @@
                                   <div class="res-color">
                                     <span class="green"></span>
                                   </div>
-                                  <a class="header">川A KH786</a>
+                                  <a class="header">川X KH786</a>
                                   <div class="meta">
                                       <span class="brand">一汽大众</span>
                                   </div>
@@ -115,8 +116,8 @@
                               </div>
                           </div>
                         </div>
-                        <div class="column">
-                          <div class="ui card">
+                        <div data-value="川C RF789" class="column white-color">
+                          <div class="ui raised link card">
                               <div class="content right aligned">
                                   <div class="car-img left floated">
                                       <img src="./images/car.png" alt="">
@@ -124,7 +125,7 @@
                                   <div class="res-color">
                                     <span class="white"></span>
                                   </div>
-                                  <a class="header">川A RF789</a>
+                                  <a class="header">川C RF789</a>
                                   <div class="meta">
                                       <span class="brand">广汽本田</span>
                                   </div>
@@ -135,8 +136,8 @@
                               </div>
                           </div>
                         </div>
-                        <div class="column">
-                          <div class="ui card">
+                        <div data-value="川A WE563" class="column green-color">
+                          <div class="ui raised link card">
                               <div class="content right aligned">
                                   <div class="car-img left floated">
                                       <img src="./images/car.png" alt="">
@@ -155,8 +156,8 @@
                               </div>
                           </div>
                         </div>
-                        <div class="column">
-                          <div class="ui card">
+                        <div data-value="川B OP658" class="column red-color">
+                          <div class="ui raised link card">
                               <div class="content right aligned">
                                   <div class="car-img left floated">
                                       <img src="./images/car.png" alt="">
@@ -175,10 +176,9 @@
                               </div>
                           </div>
                         </div>
-                    </div>
-                    <div class="equal width row">
-                        <div class="column">
-                            <div class="ui card">
+
+                        <div data-value="川H OK968" class="column green-green">
+                            <div class="ui raised link card">
                                 <div class="content right aligned">
                                     <div class="car-img left floated">
                                         <img src="./images/car.png" alt="">
@@ -197,8 +197,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="column">
-                          <div class="ui card">
+                        <div data-value="川A 890UJ" class="column white-color">
+                          <div class="ui raised link card">
                               <div class="content right aligned">
                                   <div class="car-img left floated">
                                       <img src="./images/car.png" alt="">
@@ -217,8 +217,8 @@
                               </div>
                           </div>
                         </div>
-                        <div class="column">
-                          <div class="ui card wifi">
+                        <div data-value="424-536-784-9654" class="column">
+                          <div class="ui raised link card wifi">
                               <div class="content right aligned">
                                   <div class="car-img left floated">
                                       <img src="./images/wifi.png" alt="">
@@ -234,8 +234,8 @@
                               </div>
                           </div>
                         </div>
-                        <div class="column">
-                          <div class="ui card">
+                        <div data-value="川A CF675" class="column yellow-color">
+                          <div class="ui raised link card">
                               <div class="content right aligned">
                                   <div class="car-img left floated">
                                       <img src="./images/car.png" alt="">
@@ -254,8 +254,8 @@
                               </div>
                           </div>
                         </div>
-                        <div class="column">
-                          <div class="ui card">
+                        <div data-value="川D 45TY6" class="column green-color">
+                          <div class="ui raised link card">
                               <div class="content right aligned">
                                   <div class="car-img left floated">
                                       <img src="./images/car.png" alt="">
@@ -274,10 +274,9 @@
                               </div>
                           </div>
                         </div>
-                    </div>
-                    <div class="equal width row">
-                        <div class="column">
-                            <div class="ui card">
+
+                        <div data-value="川R 0X768" class="column red-color">
+                            <div class="ui raised link card">
                                 <div class="content right aligned">
                                     <div class="car-img left floated">
                                         <img src="./images/car.png" alt="">
@@ -285,7 +284,7 @@
                                     <div class="res-color">
                                       <span class="red"></span>
                                     </div>
-                                    <a class="header">川A 0X768</a>
+                                    <a class="header">川R 0X768</a>
                                     <div class="meta">
                                         <span class="brand">广汽本田</span>
                                     </div>
@@ -296,8 +295,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="column">
-                          <div class="ui card">
+                        <div data-value="川M KH756" class="column black-color">
+                          <div class="ui raised link card">
                               <div class="content right aligned">
                                   <div class="car-img left floated">
                                       <img src="./images/car.png" alt="">
@@ -305,7 +304,7 @@
                                   <div class="res-color">
                                     <span class="black"></span>
                                   </div>
-                                  <a class="header">川A KH756</a>
+                                  <a class="header">川M KH756</a>
                                   <div class="meta">
                                       <span class="brand">一汽大众</span>
                                   </div>
@@ -316,8 +315,8 @@
                               </div>
                           </div>
                         </div>
-                        <div class="column">
-                          <div class="ui card">
+                        <div data-value="川A RF789" class="column white-color">
+                          <div class="ui raised link card">
                               <div class="content right aligned">
                                   <div class="car-img left floated">
                                       <img src="./images/car.png" alt="">
@@ -336,14 +335,57 @@
                               </div>
                           </div>
                         </div>
-                        <div class="column"></div>
-                        <div class="column"></div>
-                    </div>
+
                 </div>
             </div>
         </div>
     </div>
-
+    <div class="ui modal">
+      <i class="close icon"></i>
+      <div class="header">
+        选择时间点
+      </div>
+      <div class="content">
+        <div class="selected-date">
+          <div class="ui selection dropdown">
+              <input type="hidden" name="years">
+              <i class="dropdown icon"></i>
+              <div class="default text">2017</div>
+              <div class="menu hidden">
+                  <div class="item" data-value="1">2017</div>
+                  <div class="item" data-value="0">2016</div>
+              </div>
+          </div>
+          <span>年</span>
+          <div class="ui selection dropdown">
+              <input type="hidden" name="month">
+              <i class="dropdown icon"></i>
+              <div class="default text">3</div>
+              <div class="menu">
+                  <div class="item" data-value="1">1</div>
+                  <div class="item" data-value="0">2</div>
+              </div>
+          </div>
+          <span>月</span>
+          <div class="ui selection dropdown">
+              <input type="hidden" name="day">
+              <i class="dropdown icon"></i>
+              <div class="default text">12</div>
+              <div class="menu">
+                  <div class="item" data-value="1">1</div>
+                  <div class="item" data-value="0">2</div>
+              </div>
+          </div>
+          <span>日</span>
+        </div>
+        <div class="description">
+          注：数据显示选择日期前后15天共振结果
+        </div>
+      </div>
+      <div class="actions">
+        <div class="ui button">确 定</div>
+      </div>
+    </div>
 
     <script src="/assets/bundle.js"></script>
 </body>
