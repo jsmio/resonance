@@ -1,0 +1,304 @@
+@charset "UTF-8";
+body {
+    background: #04152f url(../images/main-bg.png) no-repeat;
+    background-size: cover;
+    padding: 30px 42px;
+}
+
+.ui.selection.dropdown {
+    color: #00A0E9;
+    padding: 0.4em 3.5em 0.4em 1.1em;
+    line-height: 1.3em;
+    min-height: 1em;
+    min-width: 2em;
+    background: transparent;
+    border: 1px solid #00A0E9;
+    border-radius: 1px;
+}
+
+.ui.dropdown:not(.button)>.default.text {
+    color: #00A0E9;
+}
+
+.ui.selection.dropdown>.dropdown.icon {
+    color: #00A0E9;
+    border-left: 1px solid #00A0E9;
+    line-height: 1em;
+    top: 0.69em;
+    background-color: rgba(0, 160, 233, 0.3);
+}
+
+.ui.grid {
+    margin: 0px;
+}
+
+.ui.form .fields {
+    margin: 0px;
+}
+
+.ui.selection.dropdown:hover, .ui.selection.dropdown>.dropdown.icon:hover {
+    border-color: rgba(1, 176, 255, 0.7);
+    box-shadow: none;
+}
+
+.ui.selection.active.dropdown .menu {
+    border-color: #00A0E9;
+}
+
+.ui.dropdown .menu {
+    background-color: rgba(43, 43, 58, 0.4);
+}
+
+.ui.selection.dropdown .menu>.item {
+    border-top: 1px solid #00A0E9;
+}
+
+.ui.dropdown .menu>.item {
+    color: #00A0E9;
+}
+
+.ui.selection.active.dropdown {
+    border-color: #00A0E9;
+}
+
+.ui.selection.dropdown>.dropdown.icon {
+    right: 1em;
+    margin: -0.78571429em -1.1em;
+    padding: 0.78571429em 1.1em;
+}
+
+.ui.dropdown .menu>.item:hover {
+    color: #F39800;
+}
+
+.ui.selection.active.dropdown:hover .menu, .ui.selection.active.dropdown:hover {
+    border-color: rgba(1, 176, 255, 0.7);
+}
+
+.ui.dropdown.selected, .ui.dropdown .menu .selected.item {
+    color: #F39800;
+}
+
+.ui.selection.visible.dropdown>.text:not(.default) {
+    color: #F39800;
+}
+
+.ui.selection.dropdown:focus {
+    border-color: rgba(1, 176, 255, 1);
+}
+
+.ui[class*="right aligned"].grid {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.ui.input input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.ui.input input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.ui.input input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.ui.input input:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.head, .content.main {
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-delay: .5s;
+    animation-delay: .5s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+.head .top-title h5 {
+    color: #00A0E9;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.content.main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 85vh;
+    margin: 0;
+}
+
+.content.main .middle.aligned {
+    margin: auto;
+}
+
+.content.main .ui.grid.con-search {
+    display: none;
+}
+
+.content.main .ui.grid .ui.input {
+    width: 60%;
+}
+
+.content.main .con-title h1 {
+    color: #fff;
+    font-size: 26px;
+    margin: 0 15px;
+}
+
+.content.main .con-search {
+    margin-top: 20px;
+}
+
+.content.main .con-search.ui.grid {
+    margin-top: 0px;
+}
+
+.con-search .ui.input {
+    width: 40%;
+}
+
+.con-search .ui.input input {
+    background: #F39800;
+    padding: 0.4em 1em;
+}
+
+.con-search .ui.input i {
+    color: #000;
+}
+
+.con-search .ui.search .prompt {
+    border-radius: 2px;
+}
+
+.content.main .ui.grid.con-search .res-type {
+    min-width: 140px;
+}
+
+.content.main .ui.grid.con-search .res-color {
+    min-width: 75px;
+}
+
+.content.main .view-search .ui.card .res-color .red, .content.main .ui.grid.con-search .res-color .color-box[data-value=red], .content.main .ui.grid.con-search .res-color .menu>.item[data-value=red] {
+    background-color: #DB4535;
+}
+
+.content.main .view-search .ui.card .res-color .yellow, .content.main .ui.grid.con-search .res-color .color-box[data-value=yellow], .content.main .ui.grid.con-search .res-color .menu>.item[data-value=yellow] {
+    background-color: #F7931E;
+}
+
+.content.main .view-search .ui.card .res-color .green, .content.main .ui.grid.con-search .res-color .color-box[data-value=green], .content.main .ui.grid.con-search .res-color .menu>.item[data-value=green] {
+    background-color: #22B573;
+}
+
+.content.main .view-search .ui.card .res-color .white, .content.main .ui.grid.con-search .res-color .color-box[data-value=white], .content.main .ui.grid.con-search .res-color .menu>.item[data-value=white] {
+    background-color: #FFFFFF;
+}
+
+.content.main .view-search .ui.card .res-color .black, .content.main .ui.grid.con-search .res-color .color-box[data-value=black], .content.main .ui.grid.con-search .res-color .menu>.item[data-value=black] {
+    background-color: #000000;
+}
+
+.content.main .ui.grid.con-search .res-color .color-box {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    width: 31px;
+    height: 29px;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.content.main .view-search {
+    display: none;
+    margin-top: 20px;
+}
+
+.content.main .view-search .ui.card .content.right {
+    background-color: rgba(0, 160, 233, 0.95);
+}
+
+.content.main .view-search .ui.card .car-img img {
+    width: 50px;
+    height: auto;
+}
+
+.content.main .view-search .ui.card .res-color>span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #131320;
+}
+
+.content.main .view-search .ui.card .res-color {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.content.main .view-search .ui.card .header {
+    display: inline-block;
+    padding: 5px;
+}
+
+.content.main .view-search .ui.card .brand {
+    padding: 5px 8px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #131320;
+}
+
+.content.main .view-search .ui.card .extra.content {
+    position: relative;
+    height: 85px;
+    background-color: rgba(43, 43, 58, 0.2);
+}
+
+.content.main .view-search .ui.card .similarity {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.content.main .view-search .ui.card .value {
+    position: absolute;
+    right: 20px;
+    bottom: 25px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.content.main .view-search .ui.card .value.red {
+    color: #C1272D;
+}
+
+.content.main .view-search .ui.card .value.blue {
+    color: #00A0E9;
+}
+
+.ui.card {
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3), 0px 0px 3px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 0;
+    background: transparent;
+}
+
+.content.main .view-search .ui.card.wifi .car-img img {
+    width: 33px;
+    height: auto;
+}
+.content.main .view-search .ui.card.wifi .header {
+    max-width: 166px;
+    height: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
